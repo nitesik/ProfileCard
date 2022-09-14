@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Kumbh";
+  src: url("./fonts/KumbhSans-Regular.ttf");
+}
+
+.container {
+  display: grid;
+  width: 450px;
+  height: 450px;
+  background-color: aliceblue;
+  overflow: hidden;
+  border-radius: 20px;
+  grid-template: 5fr 5fr 3fr/ 1fr;
+  color: hsl(0, 0%, 59%);
+  font-family: "Kumbh";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.image {
+  display: flex;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  justify-content: center;
+}
+
+.inner {
+  position: absolute;
+  top: 23%;
+}
+
+img {
+  border-radius: 100px;
+  padding: 7px;
+  background-color: white;
+  height: 7em;
+  width: 7em;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  margin-bottom: 10px;
+  margin-top: 60px
+}
+
+.stats {
+  border-top: 1px solid hsl(0, 0%, 59%);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.bold {
+  font: bolder;
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+  margin-right: 2px;
+}
